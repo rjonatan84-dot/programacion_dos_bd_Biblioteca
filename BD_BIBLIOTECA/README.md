@@ -38,3 +38,7 @@ Para crear y cargar la base de datos en un servidor MySQL, siga estos pasos:
    - La creación de todas las tablas con sus respectivas llaves primarias y foráneas.
    - La inserción de datos de prueba para facilitar la ejecución de las consultas.
 
+##  Autor
+Jonatan Eduar Riascos López
+Estudiante – Bases de Datos
+Actividad Académica – Taller SQL 
