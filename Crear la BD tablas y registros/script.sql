@@ -1,7 +1,7 @@
 /* =========================================================
    CREACIÓN BASE DE DATOS: Biblioteca
    Basado en db_library.sql
-   ========================================================= */
+   ======================================================== */
 
 -- 1) Crear la base de datos (si no existe) y usarla
 CREATE DATABASE IF NOT EXISTS db_library

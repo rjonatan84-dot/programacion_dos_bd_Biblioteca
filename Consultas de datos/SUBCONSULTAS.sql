@@ -1,4 +1,4 @@
-/*1.1 Nombres y apellidos de usuarios que han reservado un libro de categoría "Fiction"*/
+/*1 Nombres y apellidos de usuarios que han reservado un libro de categoría "Fiction"*/
 SELECT u.FirstName, u.LastName
 FROM Users u
 WHERE u.UserID IN (
@@ -9,7 +9,7 @@ WHERE u.UserID IN (
     WHERE c.CategoryName = 'Fiction'
 );
 
-/*1.2 Título y autor de libros que están prestados (préstamo activo = ReturnDate IS NULL)*/
+/*2 Título y autor de libros que están prestados (préstamo activo = ReturnDate IS NULL)*/
 SELECT b.Title, b.Author
 FROM Books b
 WHERE EXISTS (
